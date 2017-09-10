@@ -1,0 +1,10 @@
+apply plugin: 'java'
+
+dependencies {
+    compile fileTree(dir: 'libs', include: ['*.jar'])
+    compile files('E:/Projects/AndroidAppParser/org.apache.commons.io.jar')
+    compile files('E:/Projects/AndroidAppParser/jsoup-1.10.3.jar')
+}
+
+sourceCompatibility = "1.7"
+targetCompatibility = "1.7"
